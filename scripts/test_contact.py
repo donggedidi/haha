@@ -21,4 +21,5 @@ class TestContact:
         print(self.page.page_get_txt())
         print(args["name"])
         assert args["name"]==self.page.page_get_txt()
+        assert 0
 
