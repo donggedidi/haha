@@ -2,7 +2,7 @@ import yaml
 
 def base_analyse(file_name,key):
     file = "./data/" + file_name
-    with open(file, "r") as f:
+    with open(file, "r",encoding="utf-8") as f:
         data= yaml.load(f, Loader=yaml.FullLoader)
         dict_data=data[key]
         list_data=list()
