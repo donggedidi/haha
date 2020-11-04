@@ -1,5 +1,7 @@
 import time
 
+import allure
+
 import page
 from base.base import Base
 
@@ -7,7 +9,7 @@ from base.base import Base
 class Page(Base):
     def page_click_add(self):
         self.base_click(page.add_btn)
-
+    @allure.step(title="输入姓名")
     def page_input_name(self,name):
         self.base_input(page.name,name)
 
