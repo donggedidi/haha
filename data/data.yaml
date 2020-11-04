@@ -1,0 +1,7 @@
+test_contact:
+  test_contact01:
+    name: "haha3"
+    phone: "18111111111"
+  test_contact02:
+    name: "wangwu"
+    phone: "16111111111"
